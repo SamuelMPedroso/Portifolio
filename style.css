@@ -97,27 +97,10 @@ li:hover {
 }
 
 .about-me div p {
-    color: #000000d8;
+    color: #e2b9c6;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 50px;
-}
-
-.about-me div button {
-    color: #000000d8;
-    background: #519872;
-    height: 50px;
-    width: 180px;
-    font-size: 18px;
-    border: none;
-    border-radius: 26px;
-}
-
-.about-me div button:hover {
-    cursor: pointer;
-    transition: 0.5s;
-    background-color: #382933;
-    color: #ffffff;
 }
 
 .project {
