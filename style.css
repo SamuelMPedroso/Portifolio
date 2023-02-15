@@ -85,7 +85,7 @@ li:hover {
 }
 
 .about-me div h2 {
-    color: #519872;
+    color: #ffffff;
     font-size: 65px;
 }
 
@@ -114,12 +114,6 @@ li:hover {
 }
 
 
-
-
-
-
-
-
 .projetos {
     background-color: #519872;
     padding-top: 50px;
@@ -133,7 +127,7 @@ li:hover {
 }
 
 .card {
-    background-color: #000000;
+    background-color: #3B5249;
     height: 365px;
     width: 335px;
     border-radius: 20px;
@@ -157,7 +151,7 @@ li:hover {
 }
 
 .card a {
-    background-color: #f9004d;
+    background-color: #519872;
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
@@ -167,8 +161,10 @@ li:hover {
 }
 
 .card a:hover {
-    background-color: transparent;
-    border: 2px solid #f9004d;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #382933;
+    color: #ffffff;
 }
 
 .card-projetos {
@@ -176,12 +172,6 @@ li:hover {
     justify-content: space-around;
     margin-top: 100px;
 }
-
-
-
-
-
-
 
 footer {
     background-color: #A4B494;
