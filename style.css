@@ -41,7 +41,6 @@ li {
 li:hover {
     color: #A4B494;
     transition: 0.5s;
-
 }
 
 .link-menu {
@@ -49,6 +48,10 @@ li:hover {
     color: #ffffff;
 }
 
+.link-menu:hover {
+    color: #A4B494;
+    transition: 0.5s;
+}
 
 .my-name {
     position: absolute;
@@ -68,6 +71,10 @@ li:hover {
 .my-name h3 {
     color: #ffffff;
     font-size: 23px;
+}
+
+.my-name h3 span {
+    color: #A4B494;;
 }
 
 .about-me {
@@ -113,14 +120,13 @@ li:hover {
     color: #ffffff;
 }
 
-
-.projetos {
+.project {
     background-color: #519872;
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
-.projetos h2 {
+.project h2 {
     color: white;
     font-size: 75px;
     text-align: center;
@@ -150,24 +156,24 @@ li:hover {
     margin-bottom: 40px;
 }
 
-.card a {
+.card div a {
     background-color: #519872;
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.5s;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
-.card a:hover {
+.card div a:hover {
     cursor: pointer;
     transition: 0.5s;
     background-color: #382933;
     color: #ffffff;
 }
 
-.card-projetos {
+.card-project {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
