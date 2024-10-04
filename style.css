@@ -78,7 +78,7 @@ nav {
 }
 
 .my-name h3 span {
-    color: var(--highlight-color);
+    color: var(--accent-color);
 }
 
 .about-me {
