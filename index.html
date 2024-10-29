@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container-fluid main-box" id="home">
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- <header class="container-fluid main-box" id="home"> -->
+    <header id="home">    
+        <!-- <nav class="navbar navbar-expand-lg navbar-light"> -->
+        <nav>    
             <a class="navbar-brand" href="#">Portfó<span>lio</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,16 +35,16 @@
                 </ul>
             </div>
         </nav>
-
-        <div class="container text-center">
-            <div class="my-name">
-                <h1>Samuel <span>M. Pedroso</span></h1>
-                <h3>Programador <span>FullStack</span></h3>
-            </div>
-        </div>
     </header>
 
-    <section class="container about-me" id="about">
+    <div class="text-center">
+        <div class="my-name">
+            <h1>Samuel <span>M. Pedroso</span></h1>
+            <h3>Programador <span>FullStack</span></h3>
+        </div>
+    </div>
+    
+    <section class="about-me" id="about">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <img src="./Imagens/Eu.png" class="img-fluid" alt="Foto de Samuel Maria Pedroso, desenvolvedor backend">
@@ -55,7 +57,7 @@
         </div>
     </section>
 
-    <section class="container project" id="project">
+    <section class="project" id="project">
         <h2>Projetos</h2>
     
         <div id="carouselProjects" class="carousel slide" data-ride="carousel" aria-labelledby="project">
