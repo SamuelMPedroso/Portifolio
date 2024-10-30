@@ -18,16 +18,20 @@
   A estrutura básica do projeto é organizada da seguinte forma:
   
        📁 MeuPortfólio/
-       ├── 📁 components/
-       │       └── about.css
-       │       └── footer.css
-       │       └── header.css
-       │       └── navbar.css
-       │       └── projects.css
-       │       └── skills.css
+       ├── 📁 assets/
+       ├── 📁 css/
+       │   ├── 📁 components/
+       │   |       └── about.css
+       │   |       └── footer.css
+       │   |       └── header.css
+       │   |       └── navbar.css
+       │   |       └── projects.css
+       │   |       └── skills.css
+       │   └── extends.css
+       │   └── globals.css
+       │   └── variables.css
        ├── 📁 script/
        │       └── index.js
-       ├── 📁 images/
        ├── 📄 index.html
        └── 📄 README.md
 
